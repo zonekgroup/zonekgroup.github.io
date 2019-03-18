@@ -1,0 +1,440 @@
+@charset "utf-8";
+
+/* Windows phone viewport fix */
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+
+
+.header_title
+{
+color: #acadb1;
+height: auto;
+position: relative;
+width: 100%;
+text-align: center;
+font-size: 42px;
+padding-bottom: 13px;
+max-width:930px;
+margin:auto;
+	
+}
+
+.language_new
+{
+	margin:0px 3px 10px 72px;	
+}
+
+.white_color
+{
+	color:white;
+}
+
+.gray_color
+{
+	color:#A9A9A9;	
+}
+
+.white_color:hover
+{
+	color:white;
+}
+
+.gray_color:hover
+{
+	color:white;
+}
+
+
+
+
+.header_title_new
+{
+color: #acadb1;
+height: auto;
+position: relative;
+width: 100%;
+text-align: center;
+font-size: 42px;
+padding-bottom: 13px;
+	
+}
+
+
+@font-face {
+    font-family: 'UniversCom-59UltraCondensed';
+    src: url('../fonts_new/universcom59ultracondensed.eot');
+    src: url('../fonts_new/universcom59ultracondensed.eot?#iefix') format('embedded-opentype'),
+    url('../fonts_new/universcom59ultracondensed.woff') format('woff'),
+    url('../fonts_new/universcom59ultracondensed.ttf') format('truetype'),
+    url('../fonts_new/universcom59ultracondensed.svg#universcom59ultracondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    color:#222;
+    background-color:#e2e3e4;
+}
+header {}
+.max-width {
+    max-width:960px;
+}
+
+.max-width-new {
+    max-width:85%;
+}
+
+header span.title {
+    font:normal normal 42px/50px Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    text-transform:uppercase;
+    text-align:center;
+    display:block;
+    padding:20px 0;
+    margin-left:-84px;
+}
+header #ubilogo {
+    margin-top:10px;
+}
+main .document-container {
+    background-color:#FFF;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    margin-bottom:20px;
+}
+main article {
+    padding:40px 60px;
+    position:relative;
+}
+
+main article h1 {
+    margin-bottom:40px;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:26px;
+}
+main article h2 {
+    margin-bottom:10px;
+    font-size:18px;
+}
+main article .banner {
+    margin-left:-75px;
+    margin-bottom:20px;
+    height:36px;
+	width:360px;
+    position:relative;
+	padding:10px 30px;
+    background:url(../images_new/banner-edge.png) no-repeat 0 0;
+	
+}
+main article .banner i {
+    display:block;
+    width:11px;
+    height:47px;
+    background:url(../images_new/banner-edge.png) no-repeat 0 0;
+    position:absolute;
+	 background-color:#4d5a61;
+    left:-11px;
+    top:0px;
+    z-index:3;
+}
+main article .banner  {
+    display:block;
+    text-align:left;
+    padding:10px 30px;
+    background-color:#4d5a61;
+    color:#fff;
+    text-transform:uppercase;
+}
+.launchpad {
+    padding-top:40px;
+}
+main section {
+    background-color:#376476;
+    margin-bottom:40px;
+    transition: background .1s;
+}
+main section a {
+    display:block;
+    font:normal normal 24px/24px "univers Com 59 UltraCondensed", "UniversCom-59UltraCondensed", Arial, Helvetica, sans-serif;
+    color:#fff;
+    text-transform:uppercase;
+    text-align:center;
+    padding:80px 0;
+    transition: background .1s;
+}
+main section:hover {
+    background-color:#407a91;
+}
+main section:hover a {
+    color:#fff;
+    text-decoration:none;
+}
+main section:focus a {
+    color:#fff;
+    text-decoration:none;
+}
+
+main section:focus a:focus {
+    color:#fff !important;
+    text-decoration:none;
+}
+
+main section a:focus {
+    color:#fff !important;
+    text-decoration:none;
+}
+@media (max-width: 480px) {
+    header span.title {
+        font-size: 30px;
+    }
+}
+@media (max-width: 767px) {
+    header #ubilogo {
+        display:block;
+        margin:10px auto 0 auto;
+    }
+    header span.title {
+        margin-left:0px;
+    }
+    main article {
+        padding:20px 0px;
+    }
+    main article .banner {
+        margin-left:-35px;
+    }
+    main article .banner {
+        margin-bottom:40px;
+    }
+    main section a {
+        font:normal normal 32px/32px "univers Com 59 UltraCondensed", "UniversCom-59UltraCondensed", Arial, Helvetica, sans-serif;
+        padding:30px 0;
+    }
+}
+
+
+
+
+.carousel-container {
+    margin-bottom: 40px;
+}
+.carousel-control {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    font-size: 20px;
+    color: #376476;
+    text-align: center;
+    text-shadow: none;
+}
+.carousel-control span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+}
+.carousel-control:hover, .carousel-control:focus {
+    outline: none;
+    color: #376476;
+    text-decoration: none;
+    opacity: .9;
+    filter: alpha(opacity=90);
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-inner {
+    background-color: #ffffff;
+}
+.carousel-inner>.item span {
+    display: block;
+    padding: 20px 40px;
+}
+.carousel-inner>.item span a {
+     font:normal normal 14px/20px 'Georgia', serif;
+     color: #376476;
+}
+.carousel-inner>.item span a:hover {
+    color: #376476;
+}
+
+@media screen and (max-width: 480px) {
+    .carousel-inner>.item span {
+        padding: 20px 30px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+}
+
+
+
+/* --- 2017 additions --- */
+
+body {
+     background: url("../images_new/lte-bg.jpg") no-repeat top center #01023a;
+    background-size: cover;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body.docpage {
+    background-size: auto;
+    background-attachment: fixed;
+    background-image: none;
+}
+header span.title {
+    color: #FFFFFF;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.logo-wrap {
+    width: 160px;
+    margin: 30px auto 30px auto;
+}
+.ubilogo {
+    max-width: 100%;
+    height: auto;
+}
+.ubilogo.compact {
+    display: block;
+}
+.ubilogo.horizontal {
+    display: none;
+}
+
+.launchpad {
+
+}
+.launchpad a {
+    vertical-align: middle;
+}
+.launchpad,
+.launchpad a {
+    color: #FFFFFF;
+    line-height: 1.2;
+}
+.doc-links {
+    max-width: 345px;
+    margin: 0 auto;
+    /* text-indent: 18px; */
+}
+.doc-links.compact {
+    max-width: 200px;
+}
+.doc-link {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.doc-link i.fa {
+    font-size: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.doc-link:hover i.fa:before {
+    content: "\f15c";
+}
+
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+body {
+	    background: url("../images_new/lte-bg.jpg") no-repeat top center #00023b;
+	    background-size: contain;
+	}
+}
+
+@media all and (device-width: 800px) and (device-height: 1280px) and (orientation:portrait) {
+body {
+	    background: url("../images_new/lte-bg.jpg") no-repeat top center #00023b;
+	    background-size: contain;
+	}
+}
+
+@media all and (min-device-width:480px) and (device-height: 1280px) and (orientation:portrait) {
+body {
+	    background: url("../images_new/lte-bg.jpg") no-repeat top center #00023b;
+	    background-size: contain;
+	}
+}
+
+
+@media (max-width: 480px) {
+    .ubilogo {
+        
+    }
+    
+	body {
+	    background: url("../images_new/lte-bg.jpg") no-repeat top center #00023b;
+	    background-size: contain;
+	}
+
+	
+    .ubilogo.compact {
+        display: none;
+    }
+    .ubilogo.horizontal {
+        display: block;
+    }
+    header span.title {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .launchpad {
+        min-height: calc(100vh - 148px);
+    }
+    .doc-links {
+        max-width: auto !important;
+        text-indent: 0;
+    }
+    .doc-link {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 26px 0;
+    }
+}
+
+@media (max-width: 480px) { 
+    header span.title {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    header span.title{
+        padding: 20px 150px;
+    }
+}
