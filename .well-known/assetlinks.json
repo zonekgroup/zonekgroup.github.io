@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "dev.paintgame.animepro",
-    "sha256_cert_fingerprints":
-    ["C8:8E:3F:2E:98:38:FE:56:D8:9B:C9:76:2E:0E:EF:6A:3B:4F:7D:7C:03:1D:09:AE:14:9A:A3:19:E6:7B:5C:15"]
-  }
-}]
